@@ -165,7 +165,7 @@
 <script>
 // eslint-disable-next-line no-unused-vars
 import cursors from "./cursor";
-import bg from "../../assets/demo.png";
+import bg from "./img";
 export default {
   name: "imgDraw",
   data() {
