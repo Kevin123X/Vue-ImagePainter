@@ -340,12 +340,14 @@ export default {
       this.canvasStore = [bg];
       this.prevDis = true;
       this.nextDis = true;
+      
       // 用于绘制的画板
       this.canvas_front = document.getElementById("ctx_front");
-      // 用于生成图片绘制后图片的画板
+      // 用于生成绘制后图片的画板
       this.canvas_back = document.getElementById("ctx_back");
       // 底图画板，橡皮擦除时获取像素放到绘制画板中，达到不擦出底图的效果
       this.canvas_base = document.getElementById("ctx_base");
+
       this.ctx_base = this.canvas_base.getContext("2d");
       this.ctx_front = this.canvas_front.getContext("2d");
       this.ctx_back = this.canvas_back.getContext("2d");
