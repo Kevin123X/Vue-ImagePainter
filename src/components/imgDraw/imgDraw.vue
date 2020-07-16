@@ -548,7 +548,9 @@ export default {
         if (this.canDraw) {
           this.canDraw = false;
           this.ctx_front.closePath();
-          this.handleSaveCanvasStore();
+          if (type!=6) {
+            this.handleSaveCanvasStore();
+          }
         }
       };
       this.canvas_front.onmousedown = (e) => mousedown(e);
