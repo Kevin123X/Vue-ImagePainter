@@ -2,7 +2,9 @@
 
 图片涂鸦、绘制、标注
 
-[在线预览](https://kevin123x.github.io/Vue-ImagePainter/)
+[在线预览(GitHub)](https://kevin123x.github.io/Vue-ImagePainter)
+
+[在线预览(Gitee)](http://keivn.vip.com.gitee.io/vue-imagepainter)
 
 ### 支持功能
 
