@@ -549,6 +549,7 @@ export default {
           this.canDraw = false;
           this.ctx_front.closePath();
           if (type!=6) {
+            console.log('非文字存储');
             this.handleSaveCanvasStore();
           }
         }
