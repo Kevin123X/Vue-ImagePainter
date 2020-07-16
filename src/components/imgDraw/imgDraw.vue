@@ -564,6 +564,8 @@ export default {
       this.ctx_front.fillStyle = this.defaultColor;
       this.ctx_front.fillText(this.text, this.tl, this.tt);
       text.style.display = "none";
+      this.text = "";
+      text.value=''
       this.handleSaveCanvasStore();
     },
     /** 上一步*/
