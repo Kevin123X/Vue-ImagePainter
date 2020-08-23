@@ -19,4 +19,4 @@ set /p input=更新：
 git commit -m  "%timeStamp%%input%"
 git push
 
-exit
+goto exit
